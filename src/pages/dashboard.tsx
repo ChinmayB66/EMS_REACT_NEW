@@ -46,7 +46,7 @@ const Dashboard: React.FC = () => {
           <nav className="space-x-14">
             <Link to="/projects" className="hover:text-blue-300">Projects</Link>
             <Link to="/PendingActivities" className="hover:text-blue-300">Pending Activities</Link>            
-            <Link to="/leavehist" className="hover:text-blue-300">Leave Historys</Link>
+            <Link to="/leavehist" className="hover:text-blue-300">Leave History</Link>
             <Link to="/msg" className="hover:text-blue-300">Message</Link>
             <Link to="/profile" className="hover:text-blue-300">Profile</Link>
             <Link to="/login" className="hover:text-blue-300" onClick={handleLogout}>Logout</Link>
@@ -64,7 +64,7 @@ const Dashboard: React.FC = () => {
                 <th className="px-2 py-2 border-b">Employee Name</th>
                 <th className="px-2 py-2 border-b">Role</th>
                 <th className="px-2 py-2 border-b">Projects Handled</th>
-                <th className="px-2 py-2 border-b">Leave Historys</th>
+                <th className="px-2 py-2 border-b">Leave History</th>
               </tr>
             </thead>
             <tbody>
