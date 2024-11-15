@@ -49,7 +49,7 @@ const Home: React.FC = () => {
           </button>
 
           <div className="hidden lg:flex space-x-6">
-            <Link to="/reg" className="text-lg text-black">Register</Link>
+            <Link to="/reg" className="text-lg text-black">Registers</Link>
             <Link to="/login" className="text-lg text-black">Login</Link>
           </div>
         </div>
