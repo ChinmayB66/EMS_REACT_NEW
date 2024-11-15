@@ -64,7 +64,7 @@ const Dashboard: React.FC = () => {
                 <th className="px-2 py-2 border-b">Employee Name</th>
                 <th className="px-2 py-2 border-b">Role</th>
                 <th className="px-2 py-2 border-b">Projects Handled</th>
-                <th className="px-2 py-2 border-b">Leave History</th>
+                <th className="px-2 py-2 border-b">Leave Historysgggg</th>
               </tr>
             </thead>
             <tbody>
